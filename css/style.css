@@ -414,4 +414,107 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #2A2A2A;
 }
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 16px 0 33px 0;
+}
+
+.logo {
+  margin-right: 25px;
+}
+
+.logo__image {
+  width: 161px;
+}
+
+.header-text {
+  display: block;
+  margin-right: auto;
+  max-width: 222px;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 26px;
+}
+
+.contacts__icon {
+  margin-right: 8px;
+}
+
+.contacts__city {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.contacts__phone {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons :last-child {
+  margin-right: 0;
+}
+
+.buttons__btn {
+  padding: 10px 22px;
+  margin-right: 11px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #6b92cb;
+  background-color: transparent;
+  border: 1px solid #6b92cb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons__btn:hover {
+  font-weight: 500;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff8228), color-stop(64.02%, #ff4f04), to(#ff4900));
+  background: linear-gradient(#ff8228 0%, #ff4f04 64.02%, #ff4900 100%);
+  border-color: #ff8228;
+}
 /*# sourceMappingURL=style.css.map */
