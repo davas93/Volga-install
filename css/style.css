@@ -417,11 +417,16 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
   max-width: 1170px;
   margin: auto;
+}
+
+.header {
+  border-bottom: 1px solid #E7E7E7;
 }
 
 .header-top {
@@ -449,8 +454,9 @@ a {
 
 .header-text {
   display: block;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
   margin-right: auto;
-  max-width: 222px;
   font-size: 13px;
   line-height: 16px;
 }
@@ -500,7 +506,6 @@ a {
 .buttons__btn {
   padding: 10px 22px;
   margin-right: 11px;
-  font-weight: 500;
   font-size: 13px;
   line-height: 16px;
   color: #6b92cb;
@@ -511,10 +516,53 @@ a {
 }
 
 .buttons__btn:hover {
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   background: -webkit-gradient(linear, left top, left bottom, from(#ff8228), color-stop(64.02%, #ff4f04), to(#ff4900));
   background: linear-gradient(#ff8228 0%, #ff4f04 64.02%, #ff4900 100%);
   border-color: #ff8228;
+}
+
+.buttons__btn:hover:nth-child(1) {
+  padding: 10px 19px;
+}
+
+.buttons__btn:hover:nth-child(2) {
+  padding: 10px 18.65px;
+}
+
+.buttons__btn:hover:nth-child(3) {
+  padding: 10px 19.6px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.header-menu__item {
+  margin-right: 47px;
+  padding-bottom: 18px;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
+}
+
+.header-menu__item:hover {
+  color: #FF4A03;
+  border-color: #FF4A03;
+}
+
+.header-menu__item:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */

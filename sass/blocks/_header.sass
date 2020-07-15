@@ -1,3 +1,5 @@
+.header
+  border-bottom: 1px solid $inline-color
 .header-top
   display: flex
   align-items: center
@@ -10,8 +12,8 @@
     width: 161px
 .header-text
   display: block
+  flex-basis: 20%
   margin-right: auto
-  max-width: 222px
   font-size: 13px
   line-height: 16px
 .contacts
@@ -39,7 +41,6 @@
   &__btn
     padding: 10px 22px
     margin-right: 11px
-    font-weight: 500
     font-size: 13px
     line-height: 16px
     color: #6b92cb
@@ -48,8 +49,30 @@
     border-radius: 4px
     cursor: pointer
     &:hover
-      font-weight: 500
+      font-weight: 700
       color: #ffffff
       background: linear-gradient(#ff8228 0%, #ff4f04 64.02%, #ff4900 100%)
       border-color: #ff8228
-
+      &:nth-child(1)
+        padding: 10px 19px
+      &:nth-child(2)
+        padding: 10px 18.65px
+      &:nth-child(3)
+        padding: 10px 19.6px
+.header-menu
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 0
+  padding: 0
+  list-style-position: inside
+  &__item
+    margin-right: 47px
+    padding-bottom: 18px
+    font-weight: 700
+    border-bottom: 3px solid transparent
+    &:hover
+      color: $interface-color
+      border-color: $interface-color
+    &:last-child
+      margin-right: 0
