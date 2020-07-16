@@ -1,47 +1,46 @@
 @media ( max-width:1200px)
   .header
-    border: none
+    &-text
+      flex-basis: 70%
   .container
     max-width: 930px
-  .header-text
-    flex-basis: 70%
   .contacts, .buttons
     margin-top: 30px
-  .header-menu
-    position: absolute
-    top: -100%
-    right: 0
-    flex-direction: column
-    padding: 10px 0
-    width: 100%
-    list-style-type: none
-    background-color: darken(#ffffff,5 )
-    transition: 0.5s
-    &_active
-      top: 0
-    &__item
-      display: flex
-      align-items: center
-      justify-content: center
+@media ( max-width:992px)
+  .container
+    max-width: 95%
+  .header
+    border: none
+    &-menu
+      position: absolute
+      top: -100%
+      right: 0
+      flex-direction: column
+      padding: 10px 0
       width: 100%
-      padding-top: 18px
-      margin: 0
-      text-align: center
-      border: none
+      list-style-type: none
+      background-color: darken(#ffffff,5 )
+      transition: 0.5s
+      &_active
+        top: 0
+      &__item
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 100%
+        padding-top: 18px
+        margin: 0
+        text-align: center
+        border: none
       &:hover
         border: none
         background-color: darken(#ffffff,10 )
   .menu-button
     position: absolute
     top: 20px
-    right: 20px
+    right: 25px
     z-index: 10
     display: block
-@media ( max-width:992px)
-  .container
-    max-width: 730px
-  .header-text
-    flex-basis: 60%
 @media ( max-width:767px)
   .container
     max-width: 90%
