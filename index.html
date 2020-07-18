@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <title>Волга монтаж</title>
   </head>
   <body>
@@ -78,12 +79,13 @@
       <div class="container">
         <div class="main-wrapper">
           <div class="main-text">
-            <h1 class="title">
-              Строительство фундаментов под ИЖС любой сложности
+            <h1 class="main-title">
+              Строительство фундаментов под <br />
+              ИЖС любой сложности
             </h1>
-            <h2 class="subtitle">
-              За <span class="subtitle_green">7 дней</span> с гаранитией до
-              <span class="subtitle_green">15 лет</span>
+            <h2 class="main-subtitle">
+              За <span class="main-subtitle_green">7 дней</span> с гаранитией
+              <span class="main-subtitle_green">до 15 лет</span>
             </h2>
             <div class="measurer">
               <img
@@ -109,7 +111,7 @@
                 течение 45 мин</span
               >
             </div>
-            <form class="calc-form">
+            <form action="" class="calc-form">
               <div class="dimensions">
                 <input
                   type="text"
@@ -127,7 +129,7 @@
                   placeholder="Высота"
                 />
               </div>
-              <select class="input calc-form__select">
+              <select size="1" class="select calc-form__select">
                 <option selected value="Выберите тип фундамента"
                   >Выберите тип фундамента</option
                 >
@@ -142,7 +144,7 @@
                 class="input calc-form__input-phone"
                 placeholder="Телефон"
               />
-              <button class="button calc-form__button">
+              <button type="submit" class="button calc-form__button">
                 Получить проект и расчет
               </button>
             </form>
@@ -158,8 +160,9 @@
               <span class="calc-item__num">3</span>
               <span class="calc-item__text"
                 ><span class="calc-item_uppercase">бесплатно</span> после замера
-                отправим вам наше коммерческое предложение с детальной сметой,
-                эскизом и стоимостью</span
+                отправим вам <br />
+                наше коммерческое предложение с детальной сметой, эскизом и
+                стоимостью</span
               >
             </div>
             <div class="checkbox">
