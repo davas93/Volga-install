@@ -772,9 +772,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 330px;
 }
 
@@ -820,6 +820,12 @@ a {
   color: #707070;
 }
 
+.calc-item_uppercase {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #FF4A03;
+}
+
 .calc-item__num {
   display: block;
   -ms-flex-negative: 0;
@@ -858,8 +864,8 @@ a {
   height: 100%;
   background-color: #FFFFFF;
   border-radius: 10px;
-  -webkit-box-shadow: 8px 12px 13px rgba(0, 0, 0, 0.07);
-          box-shadow: 8px 12px 13px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
 .input, .select {
@@ -962,5 +968,103 @@ a {
 
 .checkbox__input:hover + label::before {
   border-color: #FF4A03;
+}
+
+@media (max-width: 1200px) {
+  .main-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-text {
+    text-align: center;
+  }
+  .main-subtitle {
+    margin-bottom: 45px;
+  }
+  .measurer {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    padding-top: 27px;
+  }
+  .main-title {
+    font-size: 45px;
+  }
+  .main-subtitle {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-title {
+    font-size: 42px;
+  }
+  .main-subtitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    padding-top: 17px;
+  }
+  .main-title {
+    margin-bottom: 25px;
+    font-size: 34px;
+  }
+  .main-subtitle {
+    font-size: 28px;
+  }
+  .main-subtitle_green {
+    padding: 0;
+    background-color: transparent;
+    color: #43C956;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    margin-bottom: 25px;
+    font-size: 28px;
+  }
+  .main-subtitle {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+  .measurer__image {
+    max-width: 67px;
+    margin-right: 20px;
+  }
+  .measurer__text {
+    font-size: 14px;
+  }
+  .input, .select {
+    padding-left: 10px;
+  }
+  .calc {
+    padding: 24px 2px;
+    -ms-flex-preferred-size: 95%;
+        flex-basis: 95%;
+    border: none;
+  }
+  .calc-title {
+    font-size: 16px;
+  }
+  .calc-form {
+    margin-bottom: 31px;
+  }
+  .calc-form__input-phone {
+    padding-left: 50px;
+  }
+  .calc-form__button {
+    min-height: 45px;
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
