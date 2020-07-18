@@ -673,7 +673,7 @@ a {
     text-align: center;
     border: none;
   }
-  .header-menu:hover {
+  .header-menu__item:hover {
     border: none;
     background-color: #e6e6e6;
   }
