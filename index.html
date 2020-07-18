@@ -8,6 +8,7 @@
     <title>Волга монтаж</title>
   </head>
   <body>
+    <!-- Шапка сайта -->
     <header class="header">
       <div class="container">
         <div class="header-top">
@@ -71,6 +72,109 @@
       </div>
       <!-- /.container -->
     </header>
+
+    <!-- Главный экран -->
+    <section class="main">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="main-text">
+            <h1 class="title">
+              Строительство фундаментов под ИЖС любой сложности
+            </h1>
+            <h2 class="subtitle">
+              За <span class="subtitle_green">7 дней</span> с гаранитией до
+              <span class="subtitle_green">15 лет</span>
+            </h2>
+            <div class="measurer">
+              <img
+                src="img/main/measurer.png"
+                alt="Замерщик"
+                class="measurer__image"
+              /><span class="measurer__text"
+                >Выезд замерщика в день обращения</span
+              >
+            </div>
+          </div>
+          <!-- /.main-text -->
+
+          <div class="calc">
+            <h3 class="calc-title">
+              Получите
+              <span class="calc-title_uppercase">точный расчет</span> фундамента
+            </h3>
+            <div class="calc-item">
+              <span class="calc-item__num">1</span>
+              <span class="calc-item__text"
+                >Оставьте свой номер телефона и наш специалист свяжется с Вами в
+                течение 45 мин</span
+              >
+            </div>
+            <form class="calc-form">
+              <div class="dimensions">
+                <input
+                  type="text"
+                  class="input dimensions__input"
+                  placeholder="Длина"
+                />
+                <input
+                  type="text"
+                  class="input dimensions__input"
+                  placeholder="Ширина"
+                />
+                <input
+                  type="text"
+                  class="input dimensions__input"
+                  placeholder="Высота"
+                />
+              </div>
+              <select class="input calc-form__select">
+                <option selected value="Выберите тип фундамента"
+                  >Выберите тип фундамента</option
+                >
+                <option value="Ленточный фундамент">Ленточный фундамент</option>
+                <option value="Ростверковый фундамент"
+                  >Ростверковый фундамент</option
+                >
+                <option value="Монолитная плита">Монолитная плита</option>
+              </select>
+              <input
+                type="tel"
+                class="input calc-form__input-phone"
+                placeholder="Телефон"
+              />
+              <button class="button calc-form__button">
+                Получить проект и расчет
+              </button>
+            </form>
+            <div class="calc-item">
+              <span class="calc-item__num">2</span>
+              <span class="calc-item__text"
+                ><span class="calc-item_uppercase">бесплатно</span> к вам
+                приедет инженер для уточнения конструкции и типа
+                фундамента</span
+              >
+            </div>
+            <div class="calc-item">
+              <span class="calc-item__num">3</span>
+              <span class="calc-item__text"
+                ><span class="calc-item_uppercase">бесплатно</span> после замера
+                отправим вам наше коммерческое предложение с детальной сметой,
+                эскизом и стоимостью</span
+              >
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" class="checkbox__input" id="agreement" />
+              <label for="agreement" class="checkbox__label"
+                >Я согласен с условиями передачи информации</label
+              >
+            </div>
+          </div>
+          <!-- /.calc -->
+        </div>
+        <!-- /.main-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
     <script src="js/script.js"></script>
   </body>
 </html>
