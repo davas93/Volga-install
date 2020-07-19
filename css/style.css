@@ -845,7 +845,7 @@ a {
 
 .calc-form__input-phone {
   padding-left: 50px;
-  background: url(../img/main/icon-phone.svg) no-repeat center;
+  background: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4LjIzNSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDguMjM1IDE0Ij4NCiAgPHBhdGggaWQ9Ikljb24tcGhvbmUiIGQ9Ik0xNC4xNTIsMS41SDkuMDg0QTEuNTg4LDEuNTg4LDAsMCwwLDcuNSwzLjA5MVYxMy45MDlBMS41ODgsMS41ODgsMCwwLDAsOS4wODQsMTUuNWg1LjA2OGExLjU4OCwxLjU4OCwwLDAsMCwxLjU4NC0xLjU5MVYzLjA5MUExLjU4OCwxLjU4OCwwLDAsMCwxNC4xNTIsMS41Wk0xMS42MTgsMTQuODY0YS45NTUuOTU1LDAsMSwxLC45NS0uOTU1QS45NTEuOTUxLDAsMCwxLDExLjYxOCwxNC44NjRabTIuODUxLTIuNTQ1aC01LjdWMy40MDloNS43WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTcuNSAtMS41KSIgZmlsbD0iIzcwNzA3MCIvPg0KPC9zdmc+DQo=) no-repeat center;
   background-position-x: 15px;
 }
 
@@ -913,9 +913,9 @@ a {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url(../img/main/icon-arrow-down.svg) no-repeat center;
-  background-color: #F6F6F6;
+  background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy40NzEiIGhlaWdodD0iOC4zMTgiIHZpZXdCb3g9IjAgMCAxMy40NzEgOC4zMTgiPg0KICA8cGF0aCBpZD0iSWNvbi1hcnJvdy1kb3duIiBkPSJNMTAuNTgzLDExLjc2LDE1LjczNSwxNi45bDUuMTUyLTUuMTQxLDEuNTgzLDEuNTgzLTYuNzM1LDYuNzM1TDksMTMuMzQzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTkgLTExLjc2KSIgZmlsbD0iIzcwNzA3MCIvPg0KPC9zdmc+DQo=) no-repeat center;
   background-position-x: 95%;
+  background-color: #F6F6F6;
 }
 
 .checkbox {
