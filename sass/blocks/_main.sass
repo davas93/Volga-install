@@ -70,7 +70,9 @@
     margin-bottom: 42px
     &__input-phone
       padding-left: 50px
-      background: url(../img/main/icon-phone.svg) no-repeat center
+      background-image: url(../img/main/icon-phone.svg)
+      background-repeat: no-repeat
+      background-position-y: 50%
       background-position-x: 15px
     &__button
       width: 100%
@@ -113,9 +115,11 @@
     width: 30%
 .select
   appearance: none
-  background: url(../img/main/icon-arrow-down.svg) no-repeat center
-  background-color: $input-bg
+  background-image: url(../img/main/icon-arrow-down.svg)
+  background-repeat: no-repeat
+  background-position-y: 50%
   background-position-x: 95%
+  background-color: $input-bg
 .checkbox
   font-size: 13px
   color: $form-text
